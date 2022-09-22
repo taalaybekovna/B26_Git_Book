@@ -1,0 +1,12 @@
+[EXTRA] How to remove folder that accidentally tracked
+and pushed to GitHub
+Example: If you have accidentally pushed your .idea folder with many files in it, here is the
+steps to untrack it.
+- Go to IntelliJ terminal in bottom menu
+- Type this command : git rm -r --cached .idea and hit enter
+- if it is a file you may omit -r so it will be git rm --cached fileName
+- This will remove .idea folder from local git repo and will not track it from this
+point on.
+- Make a commit and select all un-versioned files from commit window and
+commit
+- Push it back to remote and observe it's been removed from remote repo as well
