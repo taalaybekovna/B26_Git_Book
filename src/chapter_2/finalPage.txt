@@ -1,0 +1,9 @@
+Git in IntelliJ – Use branches
+●Create a new branch called feature-1 and checkout to it
+●In feature-1 make some commits 
+○Check if those commits are shared in the master branch as well
+●Merge the new commits from feature-1 to the master branch
+○Checkout to master branch then merge:
+■Right click on the feature-1 -> Merge into selected  or
+■Git -> merge (select no ff option for merge commit)
+No option: no merge commit history (ff)
