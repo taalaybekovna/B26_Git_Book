@@ -1,0 +1,6 @@
+We can ignore files we don’t want to keep track of
+●The .gitignore file allows you to define names of file/folders you don’t want
+to keep track of changes for
+●The .gitignore file is made like any other file
+●Note: You can not un-track a file already been tracked using .gitignore file.
+That's why .gitignore file usually created before anything get staged.
